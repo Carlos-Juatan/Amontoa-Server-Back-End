@@ -2,7 +2,7 @@ import fs from 'fs';
 
 export default async function connectToDatabase(stringConexao) {
     try {
-        let rawdata = fs.readFileSync('./database/links.json');
+        let rawdata = fs.readFileSync(stringConexao);
         let data = JSON.parse(rawdata);
         console.log("Sucesso ao se conectar com o json");
 
