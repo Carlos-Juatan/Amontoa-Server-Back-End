@@ -1,5 +1,6 @@
-{
-    "funciona" : "vai",
-    "vaai dar certo" : "Já deu certo",
-    "uuuuurrrrrruuuuuuuuu!!!!!!!!!!" : "UUUUUUUUUUUUUUUUppaaaaaaaaaaaaaaa llleeeeeeeeee llllleeeeeeeeeeeeeee!!!!!"
-}
+
+[
+    { "nome": "João", "idade": 30 },
+    { "nome": "Maria", "idade": 25 },
+    { "nome": "Pedro", "idade": 35 }
+]
