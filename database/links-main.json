@@ -1,0 +1,113 @@
+{
+    "groups": [
+      {
+        "nome": "Diversão",
+        "links": [
+          { "nome": "chess.com", "url": "https://www.chess.com/home" }
+        ]
+      },
+      {
+        "nome": "Minha Empresa",
+        "links": [
+          { "nome": "Pesquisa no google - CodeFaz", "url": "https://www.google.com/search?q=CodeFaz&client=opera-gx&sca_esv=0ba5b4315e0bd468&biw=1495&bih=746&sxsrf=ADLYWIIZfqbnXEbgC_ELM6j-NiGVEqidlg%3A1729509021325&ei=nTYWZ_7BE8rO1sQP1uqHqAw&ved=0ahUKEwi-hOiWq5-JAxVKp5UCHVb1AcUQ4dUDCA8&uact=5&oq=CodeFaz&gs_lp=Egxnd3Mtd2l6LXNlcnAiB0NvZGVGYXoyBBAjGCcyChAAGIAEGAoYywEyCBAAGIAEGKIESMILUABYgwZwAHgBkAEAmAHOAaABlAOqAQUwLjEuMbgBA8gBAPgBAfgBApgCAqACnwPCAgoQIxiABBgnGIoFwgILEAAYgAQYkQIYigXCAgYQABgHGB7CAhEQLhiABBiRAhjRAxjHARiKBZgDAJIHAzItMqAH3A0&sclient=gws-wiz-serp" }
+        ]
+      },
+      {
+        "nome": "StartWeb - Sua primeira renda com programação",
+        "links": [
+          { "nome": "Desenvolvimento [ PARTE 01 ]", "url": "https://dashboard.kiwify.com.br/course/premium/4fd3ab68-d865-4e5f-bec0-95d358ffedf5?mod=5649b0eb-9cb5-4187-9d02-b65a13dc4ad5&lesson=7b38c9a6-f46d-4322-a165-262bef703786"},
+          { "nome": "Wordpress - Localhost - Virtual Server", "url": "http://192.168.56.101/wp-admin/upload.php"}
+        ]
+      },
+      {
+        "nome": "Cripto com automação",
+        "links": [
+          { "nome": "plataforma de cursos varo", "url": "https://plataforma.varos.com.br/area/vitrine"}
+        ]
+      },
+      {
+        "nome": "Músicas para trabalho",
+        "links": [
+          { "nome": "One Piece Study Vibes - Lofi hip hop mix - Anime Lofi Music to Focus, Study, Work 👒💪", "url": "https://www.youtube.com/watch?v=A3LRQ33w1SU"},
+          { "nome": "Spotify - Músicas ambientes de trabalho", "url": "https://open.spotify.com/playlist/0sKK9n4LJXjEErNyoZEvcK"}
+        ]
+      },
+      {
+        "nome": "Imersão Alura",
+        "links": [
+          { "nome": "Acesso Youtube (vídeos de imersões anteriores)", "url": "https://www.youtube.com/@acessoyoutube6012/videos"},
+          { "nome": "Certificado - Imersão back-end Alura", "url": "https://cursos.alura.com.br/immersion/certificate/user/carlosjuatan-workplace"},
+          { "nome": "Github - Repositórios do Guilher Meonrails", "url": "https://github.com/guilhermeonrails?tab=repositories"},
+          { "nome": "Chatbot - Google Gemini", "url": "https://gemini.google.com/app/799f781b9effcb4f"},
+          { "nome": "Imersão back-end - banco de dados - mongodb", "url": "https://cloud.mongodb.com/v2/673f727a39d87462f58c737d#/metrics/replicaSet/673f73f97d17aa54a23403ef/explorer/imersao-instabytes/posts/find"},
+          { "nome": "back-end url", "url": "http://localhost:3000/posts/"},
+          { "nome": "front-end url", "url": "http://localhost:8000/#"},
+          { "nome": "", "url": ""}
+        ]
+      },
+      {
+        "nome": "Cursos",
+        "links": [
+          { "nome": "Curso de desenvolvimento do Filipe Deschamps", "url": "https://curso.dev/" },
+          { "nome": "Alura - GUIA DO MOCHILEIRO TECH", "url": "https://carreira.alura.com.br/guia-mochileiro-tech/conteudo?utm_source=material-rico&utm_medium=material-rico&utm_content=quiz-mochileiro-tech&utm_campaign=black-friday24-fase1-captacao-guia-do-mochileiro" },
+          { "nome": "PDF - GUIA DO MOCHILEIRO TECH", "url": "file:///C:/Users/carlo/Downloads/Infogr%C3%A1fico_Guia%20Mochileiro.pdf" },
+          { "nome": "Pesquisa no google - Newsletter", "url": "https://www.google.com/search?client=opera-gx&q=Newsletter&sourceid=opera&ie=UTF-8&oe=UTF-8" },
+          { "nome": "Pesquisa no google - OmniStack", "url": "https://www.google.com/search?client=opera-gx&q=OmniStack&sourceid=opera&ie=UTF-8&oe=UTF-8" },
+          { "nome": "Filipe Deschamps - Cobertura Semana OmniStack", "url": "https://docs.google.com/forms/d/e/1FAIpQLSdPIMWHMl8KmDxe9DHKFO6_wh5Or1D8unRJWo5nXrYPDWk1Pw/viewform?pli=1&fbzx=-2204320008733240238" },
+          { "nome": "curso de harvard - This is CS50", "url": "https://cs50.harvard.edu/x/2024/" },
+          { "nome": "Venda do curso de ingles do AprendaNaWeb", "url": "https://techpauloborges.com/techup.html?sck=AprendaNaWeb&utm_source=organic&utm_campaign=rKm-km-rKm&token=Rt_v7nvjc7dJbJa-X5r_0sFOAfItr1&code_senha=bZqiMrzwrf4duHooCBA4zyfPGqEFN0L9vygLP&subdominio=b63nxhdr4jpu3&order_code=la5S9zE&amount=NaN&payment_version=kiwipay" },
+          { "nome": "Filipe Deschamps - tabnews", "url": "https://www.tabnews.com.br"}
+        ]
+      },
+      {
+        "nome": "Trabalhando com bots",
+        "links": [
+          { "nome": "evolutionapi", "url": "https://evolutionapi.localhost/manager/Robonildo" },
+          { "nome": "n8n", "url": "https://n8n.localhost/signin?redirect=%252F" },
+          { "nome": "pgadimin8", "url": "http://localhost:4000/browser/" },
+          { "nome": "portainer", "url": "https://portainer.localhost/#!/1/docker/stacks" },
+          { "nome": "traefik", "url": "http://localhost:8080/dashboard/#/" }
+        ]
+      },
+      {
+        "nome": "Estudando a instalação no docker",
+        "links": [
+          { "nome": "Pesquisa do google - letsencrypt localhost", "url": "https://www.google.com/search?client=opera-gx&q=letsencrypt+localhost&sourceid=opera&ie=UTF-8&oe=UTF-8" },
+          { "nome": "Pesquisa do google - traefik hostmanager", "url": "https://www.google.com/search?client=opera-gx&q=traefik+hostmanager&sourceid=opera&ie=UTF-8&oe=UTF-8" },
+          { "nome": "youtube playlist - Auto Traefik 2", "url": "https://www.youtube.com/playlist?list=PL1Hno7tIbSWViTyCXl9xNdXXU-1bVxIFD" },
+          { "nome": "youtube - Laboratório - Visão Geral e Setup da Evolution API 2.0", "url": "https://www.youtube.com/watch?v=i-YHYDkCFFg" },
+          { "nome": "youtube - Banco de Dados com PostgreSQL / PgAdmin4", "url": "https://www.youtube.com/watch?v=0koZrBgmtE8" },
+          { "nome": "youtube playlist - Curso de PostgreSQL - Bancos de Dados", "url": "https://www.youtube.com/playlist?list=PLucm8g_ezqNoAkYKXN_zWupyH6hQCAwxY" },
+          { "nome": "youtube - REMOVENDO Nodes INATIVOS Dentro do Portainer com Docker Swarm", "url": "https://www.youtube.com/watch?v=jgcSONIYaDE" },
+          { "nome": "youtube - Typebot: INSTALAÇÃO COMPLETA no Portainer com Docker Swarm COMO VOCÊ NUNCA VIU!", "url": "https://www.youtube.com/watch?v=NAC-FZaftn8" },
+          { "nome": "20 Aplicativos Gratuitos open source para você instalar no Portainer", "url": "https://digitalinterativo.com.br/20-aplicativos-gratuitos-open-source-para-voce-instalar-no-portainer/" },
+          { "nome": "Como instalar o Postgres no Portainer", "url": "https://digitalinterativo.com.br/como-instalar-o-postgres-no-portainer/" },
+          { "nome": "youtube channel - Aprenda Na Web", "url": "https://www.youtube.com/@aprendanawebbr/videos" },
+          { "nome": "aprendana web - Material de Apoio", "url": "https://material.aprendanaweb.com.br/" },
+          { "nome": "Pesquisa no google - ssh desktop", "url": "https://www.google.com/search?q=ssh+desktop&client=opera-gx&hs=sbQ&sca_esv=ce985a1e0c81157c&sxsrf=ADLYWIKFDEGVLSPVRcTb-95R-09ZR3U1-A%3A1729392581277&ei=xW8UZ_XTENKZ5OUPrP_YsAs&oq=ssh+des&gs_lp=Egxnd3Mtd2l6LXNlcnAiB3NzaCBkZXMqAggAMgsQABiABBiRAhiKBTIKEAAYgAQYFBiHAjIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyCxAuGIAEGMcBGK8BMgUQABiABDIFEAAYgAQyBRAAGIAESL9VULcKWI46cAF4AZABAJgB4wGgAa8GqgEFMC4xLjO4AQPIAQD4AQGYAgWgAsMGwgIHECMYsAMYJ8ICChAAGLADGNYEGEfCAgQQIxgnwgIKECMYgAQYJxiKBcICChAAGIAEGEMYigXCAggQABiABBjLAZgDAIgGAZAGCZIHBTEuMS4zoAfqHQ&sclient=gws-wiz-serp" },
+          { "nome": "gitpod", "url": "https://www.gitpod.io/" },
+          { "nome": "pesquisa no youtube - ssh desktop windows", "url": "https://www.youtube.com/results?search_query=ssh+desktop+windows" }
+        ]
+      },
+      {
+        "nome": "Sites para criação de sites - Recomendação do curso AprendaNaWeb",
+        "links": [
+          { "nome": "Site para anotação do curso AprendaNaWeb", "url": "https://www.notion.so/" },
+          { "nome": "w3schools", "url": "https://www.w3schools.com/" },
+          { "nome": "HTML Documentation", "url": "https://developer.mozilla.org/en-US/docs/Web/HTML" },
+          { "nome": "CSS Documentation", "url": "https://developer.mozilla.org/en-US/docs/Web/CSS" },
+          { "nome": "Adobe Color Wheel", "url": "https://color.adobe.com/create/color-wheel" },
+          { "nome": "Pesquisa no Pinterest - UI Design", "url": "https://br.pinterest.com/search/pins/?q=ui%20design&rs=typed" },
+          { "nome": "w3schools - color picker", "url": "https://www.w3schools.com/colors/colors_picker.asp" },
+          { "nome": "Fonts do google", "url": "https://fonts.google.com/" },
+          { "nome": "Usar o Inspector Para Testes", "url": "https://www.google.com/search?client=opera-gx&q=usar+o+inspecionar+do+navegador+para+modificar+c%C3%B3digos+para+teste&sourceid=opera&ie=UTF-8&oe=UTF-8" }
+        ]
+      },
+      {
+        "nome": "Saúde e Bem Estar",
+        "links": [
+          { "nome": "Home - MusclePlus", "url": "https://muscleplus.cademi.com.br/area/vitrine"}
+        ]
+      }
+    ]
+}
