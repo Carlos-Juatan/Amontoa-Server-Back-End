@@ -1,4 +1,4 @@
-import { getAllData, writeDataToDatabase } from "../models/dataModel.js";
+import { getAllData, writeDataToDatabase, updateDadabase } from "../models/dataModel.js";
 
 export async function database (req, res) { 
     const data = await getAllData();
@@ -15,5 +15,18 @@ export async function writeData(req, res) {
     } catch (error) {
         console.error('Erro ao adicionar dados:', error);
         res.status(500).json({ error: 'Erro interno do servidor' });
+    }
+}
+
+export async function updateData(req, res) { 
+    const id = req.params.id;
+    
+    try {
+        const post = req.body;
+        const criatedPost = await updateDadabase(id, post); 
+        res.status(200).json(criatedPost); 
+    } catch(erro) { 
+        console.error(erro.message);
+        res.status(500).json({'Erro':'Falha na requisição'});
     }
 }

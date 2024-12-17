@@ -1,13 +1,23 @@
-import { connectToDatabase, insertOne } from '../config/dbConfig.js';
+import { ObjectId } from 'mongodb';
+import connectToDatabase from '../config/dbConfig.js';
 
-const data = await connectToDatabase(process.env.STRING_CONEXAO);
+const connection = await connectToDatabase(process.env.uri);
 
 export async function getAllData() {
-
-    return data;
+    const db = connection.db('Amontoa');
+    const collection = db.collection('links-main');
+    return collection.find().toArray();
 }
 
 export async function writeDataToDatabase(newdata) {
-    const writedData = await insertOne(process.env.STRING_CONEXAO, newdata);
-    return writedData;
+    const db = connection.db('Amontoa');
+    const collection = db.collection('links-main');
+    return collection.insertOne(newdata);
+}
+
+export async function updateDadabase(id, newData) {
+    const db = connection.db('Amontoa');
+    const collection = db.collection('links-main');
+    const objID = ObjectId.createFromHexString(id);
+    return collection.updateOne({_id: new ObjectId(objID)}, {$push: {links: { $each: newData.links }}});
 }
