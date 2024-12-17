@@ -1,6 +1,6 @@
 import express from 'express';
 import cors from 'cors';
-import { database } from '../controllers/dataController.js';
+import { database, writeData } from '../controllers/dataController.js';
 
 const corsOptions = {
     origin: 'http://localhost:8000',
@@ -12,6 +12,8 @@ const routes = (app) => {
     app.use(cors(corsOptions));
     
     app.get('/data', database);
+
+    app.post('/data', writeData);
 }
 
 export default routes;
