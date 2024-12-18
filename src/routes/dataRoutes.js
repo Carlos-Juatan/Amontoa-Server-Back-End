@@ -13,7 +13,7 @@ const routes = (app) => {
     
     app.get('/data', database);
 
-    app.post('/data', writeData);
+    app.post('/upload', writeData);
 
     app.put('/upload/:id', updateData);
 }
