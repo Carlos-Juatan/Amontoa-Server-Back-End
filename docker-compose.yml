@@ -1,0 +1,17 @@
+version: "3.7"
+
+services:
+  frontend: 
+    build: ./
+    image: amontoa_server_back-end
+    container_name: back-end
+    restart: always
+    command: npm start
+    ports:
+      - 3000:3000
+    env_file:
+      - .env
+    environment:
+      uri: ${uri}
+    volumes:
+      - .:/urs/amontoa/backend
